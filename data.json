@@ -1,0 +1,69 @@
+
+{
+  "departments": [
+    {
+      "name": "Artificial Intelligence and Data Science",
+      "description": "Learn AI, Machine Learning and Data Science."
+    },
+    {
+      "name": "Computer Engineering",
+      "description": "Study programming, software and computer systems."
+    },
+    {
+      "name": "Mechanical Engineering",
+      "description": "Learn machines, manufacturing and design."
+    },
+    {
+      "name": "Information Technology",
+      "description": "Learn networking, databases and web technologies."
+    }
+  ],
+
+  "courses": [
+    {
+      "name": "B.Tech AI and Data Science",
+      "duration": "4 Years"
+    },
+    {
+      "name": "B.Tech Computer Engineering",
+      "duration": "4 Years"
+    },
+    {
+      "name": "B.Tech Mechanical Engineering",
+      "duration": "4 Years"
+    }
+  ],
+
+  "faculty": [
+    {
+      "name": "Dr. Priya Sharma",
+      "department": "AI and Data Science",
+      "designation": "Professor"
+    },
+    {
+      "name": "Prof. Rahul Patil",
+      "department": "Computer Engineering",
+      "designation": "Assistant Professor"
+    },
+    {
+      "name": "Prof. Neha Joshi",
+      "department": "Mechanical Engineering",
+      "designation": "Assistant Professor"
+    }
+  ],
+
+  "notices": [
+    {
+      "title": "Semester Examination",
+      "description": "Check the examination timetable."
+    },
+    {
+      "title": "Admission Notice",
+      "description": "Admissions are open for eligible students."
+    },
+    {
+      "title": "College Event",
+      "description": "Upcoming technical activities and events."
+    }
+  ]
+}

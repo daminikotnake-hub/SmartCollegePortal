@@ -1,18 +1,17 @@
-# WT_CCE5_229_SmartCollegePortal
 
 # Smart College Website Portal
 
 ## Project Information
-- Subject: Web Technology 1
-- CCE: 5
-- Student: Damini Kotnake
-- Roll Number: 229
-- Batch: WT C1
+Subject: Web Technology 1
+CCE: 5
+Student: Damini Kotnake
+Roll Number: 229
+Batch: WT C1
 
 ## Project Description
-Smart College Website Portal is a responsive website
-that provides information about college departments,
-courses, faculty and notices.
+Smart College Website Portal is a responsive
+website that provides information about college
+departments, courses, faculty members and notices.
 
 It also provides a student enquiry form.
 
@@ -23,39 +22,31 @@ It also provides a student enquiry form.
 - JSON
 
 ## Features
-1. Home Page
-2. Departments
-3. Courses
-4. Faculty
-5. Notices
-6. Enquiry Form
-7. SPA Navigation
-8. Responsive Design
-9. JSON Data Loading
-10. Form Validation
-
-## Project Screenshots
-
-### 1. Home Page
-![Home Page](home.png.png)
-
-### 2. Departments
-![Departments](departments.png.png)
-
-### 3. Courses
-![Courses](courses.png.png)
-
-### 4. Enquiry Form
-![Enquiry Form](enquiry.png.png)
+1. Home page
+2. Department information
+3. Course details
+4. Faculty information
+5. College notices
+6. Student enquiry form
+7. SPA navigation
+8. Responsive design
+9. JSON data loading
+10. Client-side validation
 
 ## How to Run
-1. Download the project.
-2. Open the folder in VS Code.
+1. Download or clone the repository.
+2. Open the project folder in VS Code.
 3. Install Live Server.
-4. Right-click index.html.
-5. Select Open with Live Server.
+4. Open index.html using Live Server.
+
+## Project Files
+- index.html
+- style.css
+- app.js
+- data.json
+- README.md
 
 ## Conclusion
-This project demonstrates the development of
-a responsive Single Page Application using
-HTML, CSS and JavaScript.
+This project demonstrates the use of
+HTML, CSS and JavaScript to develop a
+responsive Single Page Application.
