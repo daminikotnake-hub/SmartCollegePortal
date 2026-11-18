@@ -16,7 +16,7 @@
     "ctaText": "View Our Program",
     "ctaLink": "#programs",
     "badgeCircle": "Explore Unipix University • Estd 1971 •",
-    "heroImage": "assets/images/campus-hero.svg"
+    "heroImage": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80"
   },
   "marquee": [
     "Applied Mathematics",
@@ -34,7 +34,7 @@
     "badge": "About",
     "title": "History Unipix University",
     "description": "Welcome to Unipix, where academic excellence, innovation, and community thrive. Nestled in the heart of USA, our university is dedicated to fostering a diverse and inclusive environment where students from all walks of life can thrive and excel. With a rich history of scholarship and a commitment to cutting-edge research, Unipix offers a wide range of programs across various disciplines, ensuring that every student can find their passion and pursue their goals.",
-    "image": "assets/images/campus-history.svg",
+    "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80",
     "foundedYear": "1971",
     "stats": [
       { "label": "Global Alumni", "value": "95,000+" },
@@ -48,28 +48,28 @@
       "id": "undergrad",
       "title": "Undergraduate",
       "subtitle": "Foundational Bachelor degrees with multidisciplinary hands-on studio and lab research.",
-      "image": "assets/images/program-undergrad.svg",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80",
       "route": "#departments"
     },
     {
       "id": "lifelong",
       "title": "Lifelong Learning",
       "subtitle": "Professional executive certificates, evening diplomas, and micro-credentials.",
-      "image": "assets/images/program-lifelong.svg",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80",
       "route": "#departments"
     },
     {
       "id": "graduate",
       "title": "Graduate & Doctoral",
       "subtitle": "Master of Science, MBA, and Ph.D. fellowships in cutting-edge frontiers.",
-      "image": "assets/images/program-grad.svg",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
       "route": "#departments"
     },
     {
       "id": "global",
       "title": "Global Studies",
       "subtitle": "International dual-degrees, foreign exchange residencies, and global research.",
-      "image": "assets/images/program-global.svg",
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80",
       "route": "#departments"
     }
   ],
@@ -285,13 +285,13 @@
     "badge": "Campus Life",
     "title": "Thriving Beyond Classes - Campus Life at Unipix",
     "description": "College life at Unipix is about much more than classrooms. Join over 120 student organizations, championship athletics, music ensembles, and hackathons.",
-    "image": "assets/images/campus-life-grads.svg"
+    "image": "https://images.unsplash.com/photo-1627556704290-2b1f5853ff78?auto=format&fit=crop&w=1000&q=80"
   },
   "facultyQuote": {
     "quote": "We can completely reimagine how our cities, hospitals, and families prepare for and deal with cold and flu season.",
     "author": "Dr. Peter Thorne",
     "title": "Chair, Department of Biomedical Engineering & Global Health",
-    "image": "assets/images/professor-thorne.svg"
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
   },
   "events": [
     {

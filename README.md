@@ -1,6 +1,6 @@
 # Unipix University - Smart College Portal (Single Page Application)
 
-![Unipix University](assets/images/campus-hero.svg)
+![Unipix University](https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80)
 
 ## Project Information
 - **Subject:** Web Technology 1 (WT-1)

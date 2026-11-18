@@ -173,7 +173,7 @@ function getHomeViewHTML() {
                     </div>
 
                     <div class="hero-banner-image-wrap">
-                        <img src="${hero.heroImage || 'assets/images/campus-hero.svg'}" alt="Unipix Historic Campus Building" loading="lazy">
+                        <img src="${hero.heroImage || 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80'}" alt="Unipix Historic Campus Building" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@ function getHomeViewHTML() {
                 </div>
 
                 <div class="history-image-wrap">
-                    <img src="${about.image || 'assets/images/campus-history.svg'}" alt="Unipix Quadrangle" loading="lazy">
+                    <img src="${about.image || 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80'}" alt="Unipix Quadrangle" loading="lazy">
                 </div>
 
                 <!-- Stats Bar -->
@@ -358,7 +358,7 @@ function getHomeViewHTML() {
                         <a href="#events" class="btn btn-crimson" style="background-color: #ffffff; color: var(--color-crimson-dark);">Explore Campus Life ↗</a>
                     </div>
                     <div class="campus-life-img-wrap">
-                        <img src="${campusLife.image || 'assets/images/campus-life-grads.svg'}" alt="Graduates walking in robes" loading="lazy">
+                        <img src="${campusLife.image || 'https://images.unsplash.com/photo-1627556704290-2b1f5853ff78?auto=format&fit=crop&w=1000&q=80'}" alt="Graduates walking in robes" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -369,7 +369,7 @@ function getHomeViewHTML() {
             <div class="container">
                 <div class="quote-grid">
                     <div class="quote-photo-wrap">
-                        <img src="${quote.image || 'assets/images/professor-thorne.svg'}" alt="${quote.author}" loading="lazy">
+                        <img src="${quote.image || 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80'}" alt="${quote.author}" loading="lazy">
                     </div>
                     <div class="quote-content">
                         <div class="quote-mark">““</div>
@@ -587,7 +587,7 @@ function getAboutViewHTML() {
                     ${about.description || "With a rich history of scholarship and commitment to cutting-edge research, Unipix offers a wide range of programs across various disciplines, ensuring that every student can find their passion and pursue their goals."}
                 </p>
                 <div class="history-image-wrap">
-                    <img src="${about.image || 'assets/images/campus-history.svg'}" alt="Unipix Campus Quadrangle">
+                    <img src="${about.image || 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80'}" alt="Unipix Campus Quadrangle">
                 </div>
             </div>
 
