@@ -3,130 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Alfred University - Founded in 1836. Single Page Application with client-side routing, dynamic JSON data loading, responsive UI, and client-side validation.">
-    <title>Alfred University | Founded in 1836</title>
-    <!-- Google Fonts for authentic typography -->
+    <meta name="description" content="Unipix University - Knowledge Meets Innovation. Single Page Application with client-side routing, responsive UI, dynamic JSON data loading, and client-side form validation.">
+    <title>Unipix University | Knowledge Meets Innovation</title>
+    <!-- Google Fonts for authentic Unipix typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- TOP UTILITY BAR -->
-    <div class="top-bar">
-        <div class="container top-bar-container">
-            <nav class="top-links" aria-label="Audience Navigation">
-                <a href="#enquiry" class="top-link bold-link">Apply</a>
-                <a href="#admissions" class="top-link">Future Students</a>
-                <a href="#campus-life" class="top-link">Parents</a>
-                <a href="#individuals" class="top-link">Alumni</a>
-                <a href="#news" class="top-link">News</a>
-                <a href="#visit" class="top-link">Visitors</a>
-                <a href="#academics" class="top-link">About</a>
-                <a href="#enquiry" class="top-link">Donate</a>
-            </nav>
-            <div class="top-search">
-                <form id="globalSearchForm" onsubmit="event.preventDefault(); handleSearchSubmit();">
-                    <input type="text" id="globalSearchInput" placeholder="Search" aria-label="Search website content">
-                    <button type="submit" aria-label="Execute search" class="search-btn">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                    </button>
-                </form>
+    <!-- TOP ANNOUNCEMENT / UTILITY BAR -->
+    <div class="top-announcement-bar">
+        <div class="container top-announcement-container">
+            <div class="announcement-text">
+                <span class="badge-pill">Admissions 2026-27</span>
+                <span>Applications now open for Undergraduate, Graduate & Doctoral Specializations.</span>
+            </div>
+            <div class="top-announcement-links">
+                <a href="#enquiry" class="announcement-link">Apply Online</a>
+                <span class="divider">|</span>
+                <a href="#events" class="announcement-link">Campus Tour</a>
+                <span class="divider">|</span>
+                <a href="tel:+18005558749" class="announcement-link">+1 (800) 555-UPIX</a>
             </div>
         </div>
     </div>
 
-    <!-- MAIN BRAND HEADER -->
-    <header class="main-header">
-        <div class="container header-container">
-            <a href="#home" class="brand-logo" aria-label="Alfred University Home">
-                <span class="logo-title">Alfred University</span>
-                <span class="logo-sub">FOUNDED IN 1836</span>
+    <!-- MAIN NAVBAR (MATCHING THE SCREENSHOT) -->
+    <header class="navbar-header" id="navbarHeader">
+        <div class="container navbar-container">
+            
+            <!-- BRAND LOGO WITH CREST -->
+            <a href="#home" class="brand-logo" aria-label="Unipix University Home">
+                <img src="assets/images/unipix-crest.svg" alt="Unipix Crest" class="logo-crest">
+                <div class="logo-text">
+                    <span class="logo-name">UNIPIX</span>
+                    <span class="logo-sub">UNIVERSITY</span>
+                </div>
             </a>
 
-            <!-- Mobile Hamburger Button -->
-            <button class="mobile-nav-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-
-            <!-- PRIMARY SPA NAVIGATION -->
-            <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
-                <a href="#admissions" class="nav-item" data-route="admissions">ADMISSIONS</a>
-                <a href="#academics" class="nav-item" data-route="academics">ACADEMICS</a>
-                <a href="#campus-life" class="nav-item" data-route="campus-life">CAMPUS LIFE</a>
-                <a href="#individuals" class="nav-item" data-route="individuals">INDIVIDUALS</a>
-                <a href="#athletics" class="nav-item" data-route="athletics">ATHLETICS</a>
+            <!-- DESKTOP PRIMARY SPA NAVIGATION -->
+            <nav class="main-nav" id="mainNav" aria-label="Primary Navigation">
+                <a href="#home" class="nav-link active" data-route="home">Home</a>
+                <a href="#about" class="nav-link" data-route="about">Pages</a>
+                <a href="#departments" class="nav-link" data-route="departments">Academics &amp; Branches</a>
+                <a href="#courses" class="nav-link" data-route="courses">Courses</a>
+                <a href="#events" class="nav-link" data-route="events">Event</a>
+                <a href="#news" class="nav-link" data-route="news">Blog</a>
+                <a href="#enquiry" class="nav-link" data-route="enquiry">Contact</a>
             </nav>
+
+            <!-- RIGHT CONTROLS: SEARCH, LANG, HAMBURGER -->
+            <div class="nav-controls">
+                <!-- Search Button -->
+                <button class="control-btn" id="searchTriggerBtn" onclick="openSearchModal()" aria-label="Search site">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+
+                <!-- Language Selector -->
+                <div class="lang-selector">
+                    <span class="lang-text">ENG</span>
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                </div>
+
+                <!-- Mobile Menu Hamburger Button -->
+                <button class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+
         </div>
     </header>
 
-    <!-- MAIN DYNAMIC CONTENT CONTAINER (SPA) -->
+    <!-- MAIN SPA DYNAMIC CONTENT AREA -->
     <main id="content" class="spa-content-area" role="main" aria-live="polite">
-        <!-- Rendered dynamically by app.js based on hash route -->
-        <div class="loading-spinner-container">
-            <div class="spinner"></div>
-            <p>Loading Alfred University Portal...</p>
+        <!-- Rendered dynamically by app.js based on hash routing -->
+        <div class="loading-state">
+            <div class="unipix-spinner"></div>
+            <p>Loading Unipix Academic Portal...</p>
         </div>
     </main>
 
-    <!-- FOOTER -->
-    <footer class="main-footer">
-        <div class="container footer-container">
-            <div class="footer-left">
-                <div class="footer-logo">Alfred University</div>
-                <div class="footer-founded">FOUNDED IN 1836</div>
-                <address class="footer-contact">
-                    1 Saxon Drive &bull; Alfred, NY 14802<br>
-                    <a href="tel:6078712115" class="phone-link">607.871.2115</a>
-                </address>
-                <p class="academic-note">
-                    Web Technology CCE-5 Project &bull; Roll No: 229 &bull; Batch WT C1 &bull; Damini Kotnake
+    <!-- FOOTER (DEEP NAVY BLUE) -->
+    <footer class="unipix-footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <img src="assets/images/unipix-crest.svg" alt="Unipix Crest" class="footer-crest">
+                    <div>
+                        <div class="footer-title">UNIPIX</div>
+                        <div class="footer-subtitle">UNIVERSITY</div>
+                    </div>
+                </div>
+                <p class="footer-desc">
+                    Knowledge Meets Innovation. A premier global research university dedicated to shaping visionary leaders through multidisciplinary scholarship and breakthrough discovery.
                 </p>
+                <div class="footer-contact-info">
+                    <p>📍 450 University Quadrangle, Cambridge, MA 02138, USA</p>
+                    <p>📞 +1 (800) 555-UPIX &bull; ✉ admissions@unipix.edu</p>
+                </div>
             </div>
 
-            <div class="footer-right">
-                <div class="social-icons" aria-label="Social Media Links">
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="Facebook">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                        </svg>
-                    </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="Twitter">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-                        </svg>
-                    </a>
-                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="YouTube">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"></path>
-                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#242a33"></polygon>
-                        </svg>
-                    </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="Instagram">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                        </svg>
-                    </a>
+            <div class="footer-col">
+                <h4 class="footer-heading">Academic Departments</h4>
+                <ul class="footer-links">
+                    <li><a href="#departments">Computer Engineering</a></li>
+                    <li><a href="#departments">AI &amp; Data Science</a></li>
+                    <li><a href="#departments">Information Technology</a></li>
+                    <li><a href="#departments">Mechanical Engineering</a></li>
+                    <li><a href="#departments">Biomedical Engineering</a></li>
+                    <li><a href="#departments">Applied Mathematics</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Specialized Branches</h4>
+                <ul class="footer-links">
+                    <li><a href="#departments">Software Systems &amp; Cloud</a></li>
+                    <li><a href="#departments">Cyber Security &amp; Cryptography</a></li>
+                    <li><a href="#departments">Machine Learning &amp; NLP</a></li>
+                    <li><a href="#departments">Robotics &amp; Mechatronics</a></li>
+                    <li><a href="#departments">Biomaterials &amp; Neural Implants</a></li>
+                    <li><a href="#departments">Astrophysics &amp; Space Science</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Student Portal</h4>
+                <ul class="footer-links">
+                    <li><a href="#enquiry">Admission &amp; Enquiry Form</a></li>
+                    <li><a href="#courses">Course Curriculum</a></li>
+                    <li><a href="#events">Upcoming Events</a></li>
+                    <li><a href="#about">University History</a></li>
+                    <li><a href="#news">Research &amp; Blog</a></li>
+                </ul>
+                <div class="footer-social-icons">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook">f</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter">𝕏</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">in</a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube">▶</a>
                 </div>
-                <div class="footer-links">
-                    <a href="#home">Home</a> &bull;
-                    <a href="#admissions">Admissions</a> &bull;
-                    <a href="#academics">Academics</a> &bull;
-                    <a href="#enquiry">Enquiry & Visit</a>
-                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 Unipix University. All Rights Reserved. Estd. 1971.</p>
+                <p class="academic-badge">
+                    Web Technology CCE-5 Project &bull; Roll No: 229 &bull; Batch WT C1 &bull; Damini Kotnake
+                </p>
             </div>
         </div>
     </footer>
 
-    <!-- INTERACTIVE MODAL DIALOGS -->
+    <!-- INTERACTIVE MODAL DIALOG -->
     <div id="modalOverlay" class="modal-overlay" aria-hidden="true" onclick="closeModal(event)">
         <div class="modal-content" id="modalBox" role="dialog" aria-modal="true">
             <button class="modal-close-btn" onclick="closeModal()" aria-label="Close dialog">&times;</button>
@@ -137,7 +175,7 @@
     <!-- TOAST NOTIFICATION CONTAINER -->
     <div id="toastContainer" class="toast-container" aria-live="polite"></div>
 
-    <!-- JAVASCRIPT APPLICATION -->
+    <!-- APPLICATION JAVASCRIPT -->
     <script src="app.js"></script>
 </body>
 </html>

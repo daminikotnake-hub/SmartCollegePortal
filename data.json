@@ -1,259 +1,342 @@
 {
   "university": {
-    "name": "Alfred University",
-    "founded": "1836",
-    "motto": "Fiat Lux (Let There Be Light)",
-    "address": "1 Saxon Drive, Alfred, NY 14802",
-    "phone": "607.871.2115",
-    "email": "admissions@alfred.edu"
+    "name": "Unipix University",
+    "motto": "Knowledge Meets Innovation",
+    "established": "1971",
+    "address": "450 University Quadrangle, Cambridge, MA 02138, USA",
+    "phone": "+1 (800) 555-UPIX",
+    "email": "admissions@unipix.edu",
+    "ranking": "Top 15 Research Universities Worldwide"
   },
-  "heroSlides": [
-    {
-      "id": 1,
-      "tagline1": "INDIVIDUALS.",
-      "tagline2": "INSPIRED.",
-      "subtitle": "Follow your inspiration. Pursue your interests. Study abroad. Join a team. Start something new. AU is the place where you can be yourself - whoever you may be.",
-      "buttonText": "Find your major",
-      "buttonAction": "#academics"
-    },
-    {
-      "id": 2,
-      "tagline1": "LEADERS.",
-      "tagline2": "INNOVATIVE.",
-      "subtitle": "Consistently recognized among the nation's premier institutions for top-tier ceramic art, engineering excellence, and business leadership.",
-      "buttonText": "Explore Programs",
-      "buttonAction": "#academics"
-    },
-    {
-      "id": 3,
-      "tagline1": "SAXONS.",
-      "tagline2": "UNSTOPPABLE.",
-      "subtitle": "Join a vibrant community of scholars, artists, engineers, and athletes united by curiosity, purpose, and creative fire.",
-      "buttonText": "Schedule a Visit",
-      "buttonAction": "#enquiry"
-    }
-  ],
-  "visitCampus": {
-    "title": "VISIT THE CAMPUS",
-    "description": "Experience life at Alfred University firsthand. Tour our beautiful valley campus, meet inspiring faculty, connect with current Saxons, and discover the creative, innovative spirit that makes AU extraordinary.",
-    "scheduleButton": "Schedule a visit",
-    "directionsLink": "Get directions",
-    "galleryButton": "Visit our gallery",
-    "directions": {
-      "address": "1 Saxon Drive, Alfred, NY 14802",
-      "coordinates": "42.2536° N, 77.7906° W",
-      "driving": "From I-86 (Southern Tier Expressway), take Exit 36 (Almond) and follow Route 21 South to Route 244 East into Alfred."
-    }
+  "hero": {
+    "badge": "Knowledge Meets Innovation",
+    "titleLine1": "Explore Boundless",
+    "titleLine2": "Opportunities at Unipix",
+    "description": "Welcome to Unipix, where academic excellence converges with a vibrant community spirit to shape the leaders of tomorrow. Nestled within our historic campus, Unipix offers a dynamic environment.",
+    "ctaText": "View Our Program",
+    "ctaLink": "#programs",
+    "badgeCircle": "Explore Unipix University • Estd 1971 •",
+    "heroImage": "assets/images/campus-hero.svg"
   },
-  "inTheNews": [
-    {
-      "id": "news-1",
-      "title": "Master's in business programs among nation's best says 'The Princeton Review'",
-      "date": "November 14, 2026",
-      "category": "Academics & Rankings",
-      "summary": "Alfred University's College of Business has once again been recognized by The Princeton Review as one of the best on-campus MBA and business graduate programs in the United States."
-    },
-    {
-      "id": "news-2",
-      "title": "Orchestra ready to 'scare up' musical sounds for Halloween-themed concert",
-      "date": "October 28, 2026",
-      "category": "Arts & Performance",
-      "summary": "The Alfred University Symphony Orchestra and Chamber Players present their annual spine-tingling symphonic performance featuring classic cinematic horror scores and guest student soloists."
-    },
-    {
-      "id": "news-3",
-      "title": "Allen Term 2024-15 classes available to all",
-      "date": "October 12, 2026",
-      "category": "Curriculum & Registrar",
-      "summary": "Registration is officially open for AU's accelerated Allen Term (Winter Session). Over 25 fully online accredited courses in business, humanities, mathematics, and science are open to all students."
-    }
+  "marquee": [
+    "Applied Mathematics",
+    "Biomedical Engineering",
+    "Anthropology",
+    "Astrophysics",
+    "Computer Science",
+    "Artificial Intelligence",
+    "Data Science",
+    "Mechanical Engineering",
+    "Cyber Security",
+    "Information Technology"
   ],
-  "spotlight": [
-    {
-      "id": "spotlight-1",
-      "image": "assets/images/winter-courses.svg",
-      "title": "Take online courses during Winter Break",
-      "date": "December 18th - January 18th",
-      "description": "Our Allen Term (Winter Term) offers more than 20 undergraduate and graduate courses to help you get ahead - all online! Courses are open to both current AU students and non-AU students.",
-      "tag": "Allen Term"
-    },
-    {
-      "id": "spotlight-2",
-      "image": "assets/images/homecoming.svg",
-      "title": "Homecoming",
-      "date": "October 17-19",
-      "description": "Join us for Homecoming! All alumni, current students, faculty, staff & their families are welcome. Take a look at all the exciting activities taking place over the weekend. Go Saxons!",
-      "tag": "Campus Tradition"
-    },
-    {
-      "id": "spotlight-3",
-      "image": "assets/images/art-galleries.svg",
-      "title": "New Art Galleries",
-      "date": "Fall Semester",
-      "description": "See our new online galleries of student and faculty work at Harder Hall, showcasing groundbreaking ceramic sculptures, glassworks, digital design, and multi-media installations.",
-      "tag": "School of Art & Design"
-    }
-  ],
-  "didYouKnow": {
-    "title": "DID YOU KNOW?",
-    "highlight": "AU's School of Business is again rated one of the top in the nation by the Princeton Review.",
-    "facts": [
-      "Founded in 1836, Alfred University was one of the earliest coeducational institutions in the United States.",
-      "Student-to-faculty ratio of 13:1 ensures deeply personalized mentorship and hands-on collaborative research.",
-      "Over 98% of Alfred University graduates are employed or enrolled in top graduate schools within six months.",
-      "Home to the world-renowned Inamori School of Engineering and NYS College of Ceramics."
+  "about": {
+    "badge": "About",
+    "title": "History Unipix University",
+    "description": "Welcome to Unipix, where academic excellence, innovation, and community thrive. Nestled in the heart of USA, our university is dedicated to fostering a diverse and inclusive environment where students from all walks of life can thrive and excel. With a rich history of scholarship and a commitment to cutting-edge research, Unipix offers a wide range of programs across various disciplines, ensuring that every student can find their passion and pursue their goals.",
+    "image": "assets/images/campus-history.svg",
+    "foundedYear": "1971",
+    "stats": [
+      { "label": "Global Alumni", "value": "95,000+" },
+      { "label": "Specialized Branches", "value": "45+" },
+      { "label": "Research Funding", "value": "$120M+" },
+      { "label": "Student-Faculty Ratio", "value": "11:1" }
     ]
   },
-  "stayConnected": {
-    "title": "STAY CONNECTED",
-    "description": "Stay informed with the latest campus breakthroughs, Saxon athletic victories, alumni milestones, and regional cultural events.",
-    "primaryLink": "Alfred Online",
-    "secondaryLink": "E-News",
-    "newsletterNote": "Subscribe to our weekly e-newsletter for faculty publications, lecture series, and scholarship alerts."
-  },
-  "auStars": {
-    "title": "AU STARS",
-    "avatar": "assets/images/dr-peggy-wozniak.svg",
-    "name": "Dr. Peggy Wozniak",
-    "achievement": "AU Alumna Dr. Peggy Wozniak entered the Commission on Independent Colleges and Universities' Hall of Fame for K-12 educators who have made a difference in New York.",
-    "readMoreUrl": "#individuals"
-  },
+  "programCategories": [
+    {
+      "id": "undergrad",
+      "title": "Undergraduate",
+      "subtitle": "Foundational Bachelor degrees with multidisciplinary hands-on studio and lab research.",
+      "image": "assets/images/program-undergrad.svg",
+      "route": "#departments"
+    },
+    {
+      "id": "lifelong",
+      "title": "Lifelong Learning",
+      "subtitle": "Professional executive certificates, evening diplomas, and micro-credentials.",
+      "image": "assets/images/program-lifelong.svg",
+      "route": "#departments"
+    },
+    {
+      "id": "graduate",
+      "title": "Graduate & Doctoral",
+      "subtitle": "Master of Science, MBA, and Ph.D. fellowships in cutting-edge frontiers.",
+      "image": "assets/images/program-grad.svg",
+      "route": "#departments"
+    },
+    {
+      "id": "global",
+      "title": "Global Studies",
+      "subtitle": "International dual-degrees, foreign exchange residencies, and global research.",
+      "image": "assets/images/program-global.svg",
+      "route": "#departments"
+    }
+  ],
   "departments": [
     {
-      "id": "art-design",
-      "name": "School of Art and Design",
-      "icon": "🎨",
-      "description": "Consistently ranked as one of the premier art schools in the world, renowned for ceramic art, glass sculpture, expanded media, and graphic design.",
-      "degrees": ["B.F.A. Fine Arts", "B.S. Art History", "M.F.A. Ceramic Art", "M.F.A. Glass"],
-      "majors": ["Ceramic Art", "Sculpture & Dimensional Studies", "Glass Design", "Graphic Design", "Painting & Drawing"]
+      "id": "comp-eng",
+      "name": "Department of Computer Engineering",
+      "code": "CE",
+      "icon": "💻",
+      "description": "Pioneering computing architectures, high-performance hardware, and resilient cloud systems.",
+      "head": "Dr. Angela Merkel",
+      "branches": [
+        {
+          "name": "Software Systems & Cloud Architecture",
+          "code": "CE-SCA",
+          "seats": 60,
+          "focus": "Distributed microservices, Kubernetes, scalable APIs, and fault-tolerant software pipelines."
+        },
+        {
+          "name": "Cyber Security & Cryptography",
+          "code": "CE-CSC",
+          "seats": 45,
+          "focus": "Network defense, zero-trust architectures, penetration testing, and ethical hacking."
+        },
+        {
+          "name": "Computer Networks & Internet of Things (IoT)",
+          "code": "CE-IOT",
+          "seats": 40,
+          "focus": "Edge computing, smart sensor networks, 5G/6G protocols, and embedded Linux."
+        }
+      ]
     },
     {
-      "id": "business",
-      "name": "College of Business",
-      "icon": "📈",
-      "description": "AACSB-accredited business education fostering entrepreneurship, financial acumen, data analytics, and ethical global management.",
-      "degrees": ["B.S. Business Administration", "B.S. Finance", "B.S. Marketing", "M.B.A."],
-      "majors": ["Business Administration", "Accounting", "Finance", "Healthcare Planning", "Marketing Analytics"]
+      "id": "ai-ds",
+      "name": "Department of Artificial Intelligence & Data Science",
+      "code": "AIDS",
+      "icon": "🤖",
+      "description": "Advancing machine intelligence, large multimodal models, algorithmic fairness, and data science.",
+      "head": "Dr. Rajeev Motwani",
+      "branches": [
+        {
+          "name": "Machine Learning & Deep Learning",
+          "code": "AI-MLD",
+          "seats": 60,
+          "focus": "Transformers, reinforcement learning, predictive modeling, and GPU accelerated computing."
+        },
+        {
+          "name": "Generative AI & Natural Language Processing",
+          "code": "AI-NLP",
+          "seats": 50,
+          "focus": "LLM fine-tuning, retrieval-augmented generation (RAG), and speech synthesis."
+        },
+        {
+          "name": "Autonomous Robotics & Computer Vision",
+          "code": "AI-ROB",
+          "seats": 40,
+          "focus": "Simultaneous localization and mapping (SLAM), drone autonomy, and spatial vision."
+        }
+      ]
     },
     {
-      "id": "engineering",
-      "name": "Inamori School of Engineering",
+      "id": "info-tech",
+      "name": "Department of Information Technology",
+      "code": "IT",
+      "icon": "🌐",
+      "description": "Modern enterprise web architectures, database engineering, and human-computer interfaces.",
+      "head": "Prof. Sophia Rodriguez",
+      "branches": [
+        {
+          "name": "Full-Stack Web Architectures & SPAs",
+          "code": "IT-FSA",
+          "seats": 60,
+          "focus": "Single-page application lifecycles, progressive web apps, and reactive state management."
+        },
+        {
+          "name": "Enterprise Cloud DevOps & CI/CD",
+          "code": "IT-DEV",
+          "seats": 45,
+          "focus": "Infrastructure as code, Docker orchestration, site reliability, and GitOps automation."
+        }
+      ]
+    },
+    {
+      "id": "mech-eng",
+      "name": "Department of Mechanical Engineering",
+      "code": "ME",
       "icon": "⚙️",
-      "description": "Global leaders in materials science, biomaterials, glass engineering, mechanical systems, and renewable energy technologies.",
-      "degrees": ["B.S. Ceramic Engineering", "B.S. Materials Science", "B.S. Mechanical Engineering", "Ph.D."],
-      "majors": ["Mechanical Engineering", "Biomaterials Engineering", "Materials Science", "Renewable Energy"]
+      "description": "Designing future mobility, mechatronics, renewable thermals, and aerospace structures.",
+      "head": "Dr. Marcus Vance",
+      "branches": [
+        {
+          "name": "Robotics, Mechatronics & Automation",
+          "code": "ME-RMA",
+          "seats": 50,
+          "focus": "Actuators, robotic manipulation, sensor fusion, and industrial automation."
+        },
+        {
+          "name": "Thermal & Renewable Clean Energy",
+          "code": "ME-TCE",
+          "seats": 40,
+          "focus": "Heat transfer, hydrogen fuel cells, wind aerodynamics, and solar energy systems."
+        },
+        {
+          "name": "Smart CAD/CAM & Additive Manufacturing",
+          "code": "ME-CAD",
+          "seats": 40,
+          "focus": "3D metallic printing, precision CNC, generative structural design, and FEA simulation."
+        }
+      ]
     },
     {
-      "id": "liberal-arts",
-      "name": "College of Liberal Arts & Sciences",
-      "icon": "📚",
-      "description": "Cultivating critical inquiry, creative expression, scientific discovery, and social justice across humanities and sciences.",
-      "degrees": ["B.A. Computer Science", "B.S. Biology", "B.A. Psychology", "B.A. English"],
-      "majors": ["Computer Science", "Biology & Pre-Med", "Psychology", "Communication Studies", "Political Science"]
+      "id": "biomed-eng",
+      "name": "Department of Biomedical Engineering",
+      "code": "BME",
+      "icon": "🧬",
+      "description": "Innovating biocompatible implants, prosthetic neural interfaces, and biosensing diagnostics.",
+      "head": "Dr. Peter Thorne",
+      "branches": [
+        {
+          "name": "Biomaterials & Medical Implants",
+          "code": "BME-BMI",
+          "seats": 35,
+          "focus": "Tissue regeneration matrices, biocompatible polymers, and artificial joints."
+        },
+        {
+          "name": "Neural Engineering & Biosensors",
+          "code": "BME-NEB",
+          "seats": 35,
+          "focus": "Brain-computer interfaces (BCI), electrophysiology, and non-invasive health monitors."
+        }
+      ]
     },
     {
-      "id": "performing-arts",
-      "name": "Performing Arts Division",
-      "icon": "🎭",
-      "description": "A dynamic home for vocal music, symphonic orchestra, theatrical production, choreography, and sound design.",
-      "degrees": ["B.A. Music", "B.A. Theatre", "B.A. Performance Studies"],
-      "majors": ["Symphonic Music", "Theatre Performance", "Stage Production & Lighting", "Vocal Studies"]
+      "id": "applied-math",
+      "name": "Department of Applied Mathematics & Astrophysics",
+      "code": "AMA",
+      "icon": "🪐",
+      "description": "Exploring quantum mathematics, algorithmic topology, observational cosmology, and stellar dynamics.",
+      "head": "Dr. Leonard Euler",
+      "branches": [
+        {
+          "name": "Computational Mathematics & Quantum Computing",
+          "code": "AMA-CMQ",
+          "seats": 30,
+          "focus": "Quantum state algorithms, stochastic differential equations, and mathematical physics."
+        },
+        {
+          "name": "Astrophysics & Space Science",
+          "code": "AMA-AST",
+          "seats": 30,
+          "focus": "Exoplanet detection, gravitational wave analysis, and computational cosmology."
+        }
+      ]
     }
   ],
   "courses": [
     {
-      "code": "ART-201",
-      "name": "Foundations of Ceramic Sculpture",
-      "department": "School of Art and Design",
-      "duration": "1 Semester",
+      "code": "CS-301",
+      "name": "High-Performance Cloud Architectures",
+      "department": "Department of Computer Engineering",
+      "branch": "Software Systems & Cloud Architecture",
       "credits": "4.0",
-      "level": "Undergraduate",
-      "description": "Exploration of hand-building, wheel-throwing, glaze chemistry, and high-temperature kiln firing."
+      "duration": "1 Semester",
+      "level": "Undergraduate"
     },
     {
-      "code": "BUS-310",
-      "name": "Strategic Financial Analysis",
-      "department": "College of Business",
-      "duration": "1 Semester",
-      "credits": "3.0",
-      "level": "Undergraduate",
-      "description": "Corporate valuation, capital budgeting, risk management, and algorithmic financial modeling."
-    },
-    {
-      "code": "ENG-220",
-      "name": "Thermodynamics & Energy Transfer",
-      "department": "Inamori School of Engineering",
-      "duration": "1 Semester",
+      "code": "AI-402",
+      "name": "Large Multimodal Models & Generative AI",
+      "department": "Department of Artificial Intelligence & Data Science",
+      "branch": "Generative AI & Natural Language Processing",
       "credits": "4.0",
-      "level": "Undergraduate",
-      "description": "First and second laws of thermodynamics, closed and open control volumes, and thermal efficiency."
+      "duration": "1 Semester",
+      "level": "Undergraduate / Grad"
     },
     {
-      "code": "CS-302",
-      "name": "Full-Stack Web Architectures & SPAs",
-      "department": "College of Liberal Arts & Sciences",
-      "duration": "1 Semester",
+      "code": "IT-215",
+      "name": "Single-Page Web Architecture & JavaScript Client Routing",
+      "department": "Department of Information Technology",
+      "branch": "Full-Stack Web Architectures & SPAs",
       "credits": "4.0",
-      "level": "Undergraduate",
-      "description": "Modern client-side routing, single-page application lifecycle, asynchronous JSON APIs, and responsive design."
+      "duration": "1 Semester",
+      "level": "Undergraduate"
     },
     {
-      "code": "ART-415",
-      "name": "Advanced Glass Casting & Annealing",
-      "department": "School of Art and Design",
-      "duration": "1 Semester",
+      "code": "ME-340",
+      "name": "Autonomous Robot Kinematics & Control",
+      "department": "Department of Mechanical Engineering",
+      "branch": "Robotics, Mechatronics & Automation",
       "credits": "4.0",
-      "level": "Advanced Undergrad / Grad",
-      "description": "Studio mastery of hot glass blowing, casting molds, and optical clarity techniques at the AU Glass Center."
+      "duration": "1 Semester",
+      "level": "Undergraduate"
     },
     {
-      "code": "MGT-501",
-      "name": "Executive Leadership & Data Strategy",
-      "department": "College of Business",
+      "code": "BME-410",
+      "name": "Neural Interface Engineering & Biosignals",
+      "department": "Department of Biomedical Engineering",
+      "branch": "Neural Engineering & Biosensors",
+      "credits": "4.0",
       "duration": "1 Semester",
-      "credits": "3.0",
-      "level": "Graduate (MBA)",
-      "description": "Strategic planning, data-driven decision frameworks, organizational behavior, and corporate governance."
+      "level": "Advanced Undergrad"
+    },
+    {
+      "code": "AMA-350",
+      "name": "Planetary Astrophysics & Orbital Mechanics",
+      "department": "Department of Applied Mathematics & Astrophysics",
+      "branch": "Astrophysics & Space Science",
+      "credits": "3.5",
+      "duration": "1 Semester",
+      "level": "Undergraduate"
     }
   ],
-  "faculty": [
+  "campusLife": {
+    "badge": "Campus Life",
+    "title": "Thriving Beyond Classes - Campus Life at Unipix",
+    "description": "College life at Unipix is about much more than classrooms. Join over 120 student organizations, championship athletics, music ensembles, and hackathons.",
+    "image": "assets/images/campus-life-grads.svg"
+  },
+  "facultyQuote": {
+    "quote": "We can completely reimagine how our cities, hospitals, and families prepare for and deal with cold and flu season.",
+    "author": "Dr. Peter Thorne",
+    "title": "Chair, Department of Biomedical Engineering & Global Health",
+    "image": "assets/images/professor-thorne.svg"
+  },
+  "events": [
     {
-      "name": "Dr. Sarah Miller",
-      "title": "Professor of Ceramic Art & Design",
-      "department": "School of Art and Design",
-      "email": "smiller@alfred.edu",
-      "bio": "Internationally exhibited ceramic sculptor with works in the Smithsonian American Art Museum."
+      "id": "event-1",
+      "date": "DEC 05, 2026",
+      "title": "Annual Global Innovation Summit & Robotics Expo",
+      "location": "Unipix Grand Auditorium",
+      "category": "Technology & AI"
     },
     {
-      "name": "Dr. David Vance",
-      "title": "Dean & Professor of Finance",
-      "department": "College of Business",
-      "email": "vance@alfred.edu",
-      "bio": "Former financial risk analyst and author of two leading textbooks on venture capital valuation."
+      "id": "event-2",
+      "date": "JAN 14, 2027",
+      "title": "Winter Research Colloquium: Frontiers in Quantum Bioengineering",
+      "location": "Science Center Hall B",
+      "category": "Academic Research"
     },
     {
-      "name": "Dr. Alan Huang",
-      "title": "Associate Professor of Biomaterials",
-      "department": "Inamori School of Engineering",
-      "email": "huang@alfred.edu",
-      "bio": "Lead researcher on bioactive glass implants for regenerative medicine, backed by NSF grants."
-    },
-    {
-      "name": "Prof. Elena Rostova",
-      "title": "Director of Symphonic Orchestra",
-      "department": "Performing Arts Division",
-      "email": "rostova@alfred.edu",
-      "bio": "Conductor and chamber violinist acclaimed for bringing classical and contemporary symphonic works to life."
+      "id": "event-3",
+      "date": "FEB 20, 2027",
+      "title": "Spring Career Fair: Connecting Students with Top Tech Giants",
+      "location": "Student Union Plaza",
+      "category": "Careers"
     }
   ],
-  "athletics": {
-    "nickname": "Saxons",
-    "mascot": "King Saxon",
-    "division": "NCAA Division III",
-    "conference": "Empire 8 Athletic Conference",
-    "sports": [
-      "Football", "Men's & Women's Basketball", "Lacrosse", "Track & Field", 
-      "Cross Country", "Swimming & Diving", "Soccer", "Equestrian", "Tennis"
-    ]
-  }
+  "news": [
+    {
+      "id": "news-1",
+      "date": "November 18, 2026",
+      "title": "Unipix AI Lab Unveils Breakthrough Algorithm in Early Disease Detection",
+      "category": "Health & AI",
+      "summary": "Interdisciplinary collaboration between Biomedical Engineering and Artificial Intelligence yields groundbreaking diagnostic tool."
+    },
+    {
+      "id": "news-2",
+      "date": "November 12, 2026",
+      "title": "Unipix Engineering Students Win First Place in National Clean Energy Challenge",
+      "category": "Student Achievement",
+      "summary": "Mechanical engineering team prototypes novel solar-hydrogen hybrid microgrid."
+    },
+    {
+      "id": "news-3",
+      "date": "October 30, 2026",
+      "title": "University Expands High-Performance Quantum Computing Research Center",
+      "category": "Infrastructure",
+      "summary": "$15 Million grant awarded by National Science Foundation to support next-generation research."
+    }
+  ]
 }

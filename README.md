@@ -1,6 +1,6 @@
-# Alfred University - Smart College Portal (Single Page Application)
+# Unipix University - Smart College Portal (Single Page Application)
 
-![Alfred University Portal](assets/images/winter-courses.svg)
+![Unipix University](assets/images/campus-hero.svg)
 
 ## Project Information
 - **Subject:** Web Technology 1 (WT-1)
@@ -13,64 +13,80 @@
 ---
 
 ## Project Overview
-The **Alfred University Smart College Portal** is a modern, responsive Single Page Application (SPA) designed to match the authentic university website design (Founded in 1836). The web application delivers an immersive, interactive experience with client-side routing, dynamic JSON data loading, real-time client-side form validation, and responsive UI components.
+The **Unipix University Smart College Portal** is an authentic, responsive Single Page Application (SPA) designed to match the **Unipix University** visual design ("Knowledge Meets Innovation - Estd 1971"). The application features comprehensive academic departments, specialized branch specializations, client-side routing, dynamic JSON data loading, dual-stripe marquee ticker, and cascading client-side form validation.
 
-### Core Architecture & Key Features:
+### Key Highlights & Features:
 1. **SPA-Style Navigation without Page Reload**:
-   - Complete single-page user experience where all section transitions (`#home`, `#admissions`, `#academics`, `#campus-life`, `#individuals`, `#athletics`, `#news`, `#enquiry`, `#visit`) happen instantaneously without browser reloading.
+   - Single-page application architecture where clicking navigation links (`#home`, `#about`, `#departments`, `#courses`, `#events`, `#news`, `#enquiry`) renders views dynamically without full page reloads.
 2. **Client-Side Routing Using JavaScript**:
-   - Hash-based router (`window.location.hash` and `hashchange` event listener) maps routes directly to modular view renderers.
-   - Dynamic document title updates and active navigation state indicators.
-   - Graceful fallback for non-existent routes (404 Not Found view).
-3. **Dynamic Data Loading (JSON)**:
-   - All content (Hero carousel slides, spotlight news, recent press releases, academic colleges, course catalog, faculty directory, AU Stars alumni, and fast facts) is loaded asynchronously from `data.json` via the JavaScript `Fetch API`.
-   - Real-time instant search across departments, courses, and news articles with modal overlay.
-   - Interactive filtering by department and keyword query in the Academics tab.
-4. **Client-Side Validation**:
-   - Comprehensive interactive "Schedule a Visit & Student Enquiry" application form.
+   - Hash-based router maps URLs directly to modular view functions with document title updates, active link highlighting, and a 404 fallback page.
+3. **Comprehensive Academic Departments & Branches**:
+   - **Department of Computer Engineering (CE)**:
+     - Software Systems & Cloud Architecture (60 seats)
+     - Cyber Security & Cryptography (45 seats)
+     - Computer Networks & Internet of Things (40 seats)
+   - **Department of Artificial Intelligence & Data Science (AIDS)**:
+     - Machine Learning & Deep Learning (60 seats)
+     - Generative AI & Natural Language Processing (50 seats)
+     - Autonomous Robotics & Computer Vision (40 seats)
+   - **Department of Information Technology (IT)**:
+     - Full-Stack Web Architectures & SPAs (60 seats)
+     - Enterprise Cloud DevOps & CI/CD (45 seats)
+   - **Department of Mechanical Engineering (ME)**:
+     - Robotics, Mechatronics & Automation (50 seats)
+     - Thermal & Renewable Clean Energy (40 seats)
+     - Smart CAD/CAM & Additive Manufacturing (40 seats)
+   - **Department of Biomedical Engineering (BME)**:
+     - Biomaterials & Medical Implants (35 seats)
+     - Neural Engineering & Biosensors (35 seats)
+   - **Department of Applied Mathematics & Astrophysics (AMA)**:
+     - Computational Mathematics & Quantum Computing (30 seats)
+     - Astrophysics & Space Science (30 seats)
+4. **Dynamic Data Loading (JSON)**:
+   - All departments, branches, course syllabi, campus life data, faculty quote, events, and news articles are loaded asynchronously from `data.json` via the JavaScript `Fetch API`.
+   - Real-time department and branch search filter.
+   - Interactive live search modal dialog across all curricula.
+5. **Cascading Client-Side Form Validation**:
+   - "Admission Now" enquiry and enrollment form.
+   - **Cascading dropdowns**: Selecting an academic department dynamically populates the specialized branch options available for that department.
    - Real-time field validation on `blur` and `input`:
-     - **Full Name**: Non-empty, 3+ characters, letters and spaces only.
+     - **Full Name**: Non-empty, 3+ characters, letters only.
      - **Email Address**: Standard RFC email format verification regex.
-     - **Mobile Number**: Strict 10-digit mobile number validation pattern (`^\d{10}$`).
-     - **Academic Department & Student Status**: Required selection dropdowns.
-     - **Preferred Visit Date**: Ensures selected date is a valid future date.
-     - **Enquiry Message**: Minimum 15 characters for detailed questions.
-     - **Terms & Consent**: Required confirmation checkbox.
-   - Visual indicators: Red error borders and descriptive error messages for invalid fields; green borders for valid fields; interactive success card displaying a generated unique application reference number (e.g. `AU-2026-7842`).
-5. **Responsive UI & Authentic University Design**:
-   - Deep royal purple branding (`#51296E`), dark violet utility bar (`#402456`), warm bronze visit card (`#9A7C5F`), and dark navy news card (`#282F39`).
-   - Overlapping floating cards layout on desktop accurately reflecting the university design mockup.
-   - Fluid typography and responsive CSS Grid/Flexbox architecture.
-   - Mobile navigation drawer toggle for smartphones and tablets.
+     - **Mobile Number**: Strict 10-digit mobile number format (`^\d{10}$`).
+     - **Department & Branch**: Cascading required selections.
+     - **Study Level**: Required degree level selection.
+     - **Statement of Purpose**: Minimum 15 characters.
+     - **Terms & Consent**: Required checkbox.
+   - Generates unique reference code (e.g. `UPIX-2026-8941`) and summary upon successful submission.
+6. **Authentic Visual Design & Responsive UI**:
+   - Dual-stripe continuous moving ticker (Navy Blue and Crimson Red tracks).
+   - Rotating circular video badge with Play button modal.
+   - Rounded hero banners, neoclassical quadrangle history section, 4-card program grid, and faculty spotlight quote.
+   - Responsive across mobile, tablet, and desktop viewports.
 
 ---
 
 ## Directory Structure
 ```text
 WT_CCE5_229_SmartCollegePortal/
-├── index.html           # Main HTML5 semantic SPA shell
-├── style.css            # Responsive CSS styles, variables & media queries
-├── app.js               # Client-side router, JSON fetch, search & validation
-├── data.json            # Dynamic university dataset (academics, news, spotlight)
+├── index.html           # Main semantic SPA HTML shell
+├── style.css            # Responsive CSS styles & keyframe animations
+├── app.js               # Client-side router, JSON fetch, cascading validation
+├── data.json            # Dynamic university dataset (departments, branches, courses)
 ├── README.md            # Comprehensive project documentation
 ├── assets/
-│   └── images/          # Scalable vector graphics & thumbnail illustrations
-│       ├── au-seal.svg
-│       ├── winter-courses.svg
-│       ├── homecoming.svg
-│       ├── art-galleries.svg
-│       └── dr-peggy-wozniak.svg
-└── screenshots/         # Reference screenshots of the portal
+│   └── images/          # Scalable vector graphics & illustrations
+│       ├── unipix-crest.svg
+│       ├── campus-hero.svg
+│       ├── campus-history.svg
+│       ├── campus-life-grads.svg
+│       ├── professor-thorne.svg
+│       ├── program-undergrad.svg
+│       ├── program-grad.svg
+│       ├── program-lifelong.svg
+│       └── program-global.svg
+└── screenshots/         # Screenshots archive
 ```
-
----
-
-## Technologies Used
-- **HTML5**: Semantic tags, accessibility attributes (`aria-expanded`, `aria-label`, `aria-live`).
-- **CSS3**: Custom CSS variables, CSS Grid, Flexbox, keyframe animations, overlapping negative margin layouts, media queries.
-- **JavaScript (ES6+)**: Async/await, Fetch API, DOM manipulation, Regex validation, event listeners.
-- **JSON**: Structured dynamic data storage.
-- **Git & GitHub**: Version control and remote repository hosting.
 
 ---
 
@@ -79,26 +95,14 @@ WT_CCE5_229_SmartCollegePortal/
 ### Option 1: VS Code Live Server (Recommended)
 1. Open the project folder `WT_CCE5_229_SmartCollegePortal` in **VS Code**.
 2. Right-click `index.html` and select **"Open with Live Server"**.
-3. The website will open in your default browser at `http://127.0.0.1:5500/index.html`.
+3. The website will open in your browser at `http://127.0.0.1:5501/index.html`.
 
-### Option 2: Python Local Server
-Run the following command in PowerShell/Terminal inside the project directory:
+### Option 2: Python HTTP Server
+Run the following command in PowerShell/Terminal:
 ```powershell
 python -m http.server 8000
 ```
-Then navigate to `http://localhost:8000` in any web browser.
-
----
-
-## Single Page Navigation Routes
-- `/#home` - Homepage with Hero banner, overlapping Visit/News cards, Spotlight, and Did You Know features.
-- `/#admissions` - Admissions paths (Undergraduate, Transfer, Graduate) and campus visit options.
-- `/#academics` - Searchable and filterable colleges, majors, and dynamic course catalog.
-- `/#campus-life` - Residence life, student clubs, and Harder Hall art galleries.
-- `/#individuals` - AU Stars spotlight (Dr. Peggy Wozniak) and distinguished faculty directory.
-- `/#athletics` - Saxon athletics, mascot, Empire 8 Conference, and varsity teams.
-- `/#news` - Official university press releases and newsroom.
-- `/#enquiry` - Client-side validated Student Enquiry & Campus Visit booking form.
+Then navigate to `http://localhost:8000/index.html`.
 
 ---
 

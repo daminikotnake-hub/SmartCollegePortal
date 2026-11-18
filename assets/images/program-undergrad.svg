@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="undergradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="60%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#undergradBg)"/>
+  <!-- Classroom whiteboard / tech presentation -->
+  <rect x="50" y="30" width="300" height="150" rx="6" fill="#f8fafc" opacity="0.95"/>
+  <rect x="70" y="50" width="120" height="8" rx="3" fill="#a01a32"/>
+  <circle cx="280" cy="90" r="30" fill="#e2e8f0"/>
+  <path d="M 270,90 L 290,90 M 280,80 L 280,100" stroke="#a01a32" stroke-width="3"/>
+  <line x1="70" y1="75" x2="210" y2="75" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="70" y1="95" x2="180" y2="95" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="70" y1="115" x2="150" y2="115" stroke="#94a3b8" stroke-width="4"/>
+
+  <!-- Silhouettes of students discussing -->
+  <circle cx="120" cy="210" r="24" fill="#a01a32"/>
+  <path d="M 85,290 C 85,250 100,240 120,240 C 140,240 155,250 155,290 Z" fill="#6b7280"/>
+  
+  <circle cx="210" cy="195" r="28" fill="#e5e7eb"/>
+  <path d="M 170,290 C 170,240 190,230 210,230 C 230,230 250,240 250,290 Z" fill="#4b5563"/>
+
+  <circle cx="295" cy="215" r="22" fill="#d1d5db"/>
+  <path d="M 265,290 C 265,255 280,245 295,245 C 310,245 325,255 325,290 Z" fill="#374151"/>
+</svg>

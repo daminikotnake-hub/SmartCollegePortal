@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b6cde3"/>
+      <stop offset="50%" stop-color="#dbe8f4"/>
+      <stop offset="100%" stop-color="#f2f7fc"/>
+    </linearGradient>
+    <linearGradient id="brickRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2e2e"/>
+      <stop offset="50%" stop-color="#a63d3d"/>
+      <stop offset="100%" stop-color="#691f1f"/>
+    </linearGradient>
+    <linearGradient id="roofSlate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3c4a57"/>
+      <stop offset="100%" stop-color="#232d36"/>
+    </linearGradient>
+    <linearGradient id="lawnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4e8d35"/>
+      <stop offset="40%" stop-color="#5fa343"/>
+      <stop offset="100%" stop-color="#3c7128"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="480" fill="url(#skyGrad)"/>
+
+  <!-- Background Mountain / Tree Foliage -->
+  <ellipse cx="680" cy="330" rx="160" ry="80" fill="#2d5225" opacity="0.6"/>
+  <ellipse cx="120" cy="340" rx="180" ry="70" fill="#2d5225" opacity="0.5"/>
+
+  <!-- Historic University Castle / Building Complex -->
+  <!-- Left Wing -->
+  <rect x="140" y="220" width="160" height="110" fill="url(#brickRed)"/>
+  <polygon points="135,220 220,160 305,220" fill="url(#roofSlate)"/>
+
+  <!-- Center Wing -->
+  <rect x="290" y="200" width="220" height="130" fill="url(#brickRed)"/>
+  
+  <!-- Central Great Clock Tower -->
+  <rect x="350" y="110" width="90" height="220" fill="url(#brickRed)"/>
+  <!-- Tower Turrets & Battlements -->
+  <polygon points="340,110 395,35 450,110" fill="url(#roofSlate)"/>
+  <rect x="345" y="105" width="10" height="15" fill="url(#roofSlate)"/>
+  <rect x="435" y="105" width="10" height="15" fill="url(#roofSlate)"/>
+  <!-- Clock Face -->
+  <circle cx="395" cy="145" r="18" fill="#fdfcf7" stroke="#333" stroke-width="2"/>
+  <line x1="395" y1="145" x2="395" y2="133" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="395" y1="145" x2="405" y2="145" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Right Gothic Spire Tower -->
+  <rect x="500" y="220" width="150" height="110" fill="url(#brickRed)"/>
+  <polygon points="495,220 575,170 655,220" fill="url(#roofSlate)"/>
+  <polygon points="560,170 575,90 590,170" fill="url(#roofSlate)"/>
+
+  <!-- Arched Windows Rows -->
+  <g fill="#202933">
+    <!-- Center Tower Windows -->
+    <path d="M 380,185 Q 395,172 410,185 L 410,215 L 380,215 Z"/>
+    <path d="M 380,230 Q 395,217 410,230 L 410,260 L 380,260 Z"/>
+
+    <!-- Left Wing Windows -->
+    <path d="M 160,240 Q 170,232 180,240 L 180,265 L 160,265 Z"/>
+    <path d="M 195,240 Q 205,232 215,240 L 215,265 L 195,265 Z"/>
+    <path d="M 230,240 Q 240,232 250,240 L 250,265 L 230,265 Z"/>
+    <path d="M 265,240 Q 275,232 285,240 L 285,265 L 265,265 Z"/>
+    <path d="M 160,280 Q 170,272 180,280 L 180,305 L 160,305 Z"/>
+    <path d="M 195,280 Q 205,272 215,280 L 215,305 L 195,305 Z"/>
+    <path d="M 230,280 Q 240,272 250,280 L 250,305 L 230,305 Z"/>
+    <path d="M 265,280 Q 275,272 285,280 L 285,305 L 265,305 Z"/>
+
+    <!-- Right Wing Windows -->
+    <path d="M 520,240 Q 530,232 540,240 L 540,265 L 520,265 Z"/>
+    <path d="M 555,240 Q 565,232 575,240 L 575,265 L 555,265 Z"/>
+    <path d="M 590,240 Q 600,232 610,240 L 610,265 L 590,265 Z"/>
+    <path d="M 520,280 Q 530,272 540,280 L 540,305 L 520,305 Z"/>
+    <path d="M 555,280 Q 565,272 575,280 L 575,305 L 555,305 Z"/>
+    <path d="M 590,280 Q 600,272 610,280 L 610,305 L 590,305 Z"/>
+
+    <!-- Grand Archway Portal Entrance -->
+    <path d="M 370,290 Q 395,265 420,290 L 420,330 L 370,330 Z" fill="#181e26"/>
+  </g>
+
+  <!-- Limestone Trim & Buttresses -->
+  <rect x="348" y="218" width="94" height="4" fill="#eeddbb"/>
+  <rect x="290" y="260" width="220" height="3" fill="#eeddbb"/>
+  <rect x="140" y="270" width="160" height="3" fill="#eeddbb"/>
+  <rect x="500" y="270" width="150" height="3" fill="#eeddbb"/>
+
+  <!-- Emerald Green Campus Lawn & Pathway -->
+  <path d="M 0,330 Q 400,315 800,330 L 800,480 L 0,480 Z" fill="url(#lawnGrad)"/>
+  
+  <!-- Winding Stone Pathway -->
+  <path d="M 380,330 Q 395,390 320,480 L 470,480 Q 410,390 410,330 Z" fill="#c4bda8"/>
+
+  <!-- Lush Green Trees -->
+  <circle cx="110" cy="360" r="45" fill="#325a24"/>
+  <circle cx="90" cy="380" r="38" fill="#447332"/>
+  <circle cx="690" cy="360" r="50" fill="#325a24"/>
+  <circle cx="720" cy="385" r="42" fill="#447332"/>
+</svg>
