@@ -1,69 +1,259 @@
-
 {
+  "university": {
+    "name": "Alfred University",
+    "founded": "1836",
+    "motto": "Fiat Lux (Let There Be Light)",
+    "address": "1 Saxon Drive, Alfred, NY 14802",
+    "phone": "607.871.2115",
+    "email": "admissions@alfred.edu"
+  },
+  "heroSlides": [
+    {
+      "id": 1,
+      "tagline1": "INDIVIDUALS.",
+      "tagline2": "INSPIRED.",
+      "subtitle": "Follow your inspiration. Pursue your interests. Study abroad. Join a team. Start something new. AU is the place where you can be yourself - whoever you may be.",
+      "buttonText": "Find your major",
+      "buttonAction": "#academics"
+    },
+    {
+      "id": 2,
+      "tagline1": "LEADERS.",
+      "tagline2": "INNOVATIVE.",
+      "subtitle": "Consistently recognized among the nation's premier institutions for top-tier ceramic art, engineering excellence, and business leadership.",
+      "buttonText": "Explore Programs",
+      "buttonAction": "#academics"
+    },
+    {
+      "id": 3,
+      "tagline1": "SAXONS.",
+      "tagline2": "UNSTOPPABLE.",
+      "subtitle": "Join a vibrant community of scholars, artists, engineers, and athletes united by curiosity, purpose, and creative fire.",
+      "buttonText": "Schedule a Visit",
+      "buttonAction": "#enquiry"
+    }
+  ],
+  "visitCampus": {
+    "title": "VISIT THE CAMPUS",
+    "description": "Experience life at Alfred University firsthand. Tour our beautiful valley campus, meet inspiring faculty, connect with current Saxons, and discover the creative, innovative spirit that makes AU extraordinary.",
+    "scheduleButton": "Schedule a visit",
+    "directionsLink": "Get directions",
+    "galleryButton": "Visit our gallery",
+    "directions": {
+      "address": "1 Saxon Drive, Alfred, NY 14802",
+      "coordinates": "42.2536° N, 77.7906° W",
+      "driving": "From I-86 (Southern Tier Expressway), take Exit 36 (Almond) and follow Route 21 South to Route 244 East into Alfred."
+    }
+  },
+  "inTheNews": [
+    {
+      "id": "news-1",
+      "title": "Master's in business programs among nation's best says 'The Princeton Review'",
+      "date": "November 14, 2026",
+      "category": "Academics & Rankings",
+      "summary": "Alfred University's College of Business has once again been recognized by The Princeton Review as one of the best on-campus MBA and business graduate programs in the United States."
+    },
+    {
+      "id": "news-2",
+      "title": "Orchestra ready to 'scare up' musical sounds for Halloween-themed concert",
+      "date": "October 28, 2026",
+      "category": "Arts & Performance",
+      "summary": "The Alfred University Symphony Orchestra and Chamber Players present their annual spine-tingling symphonic performance featuring classic cinematic horror scores and guest student soloists."
+    },
+    {
+      "id": "news-3",
+      "title": "Allen Term 2024-15 classes available to all",
+      "date": "October 12, 2026",
+      "category": "Curriculum & Registrar",
+      "summary": "Registration is officially open for AU's accelerated Allen Term (Winter Session). Over 25 fully online accredited courses in business, humanities, mathematics, and science are open to all students."
+    }
+  ],
+  "spotlight": [
+    {
+      "id": "spotlight-1",
+      "image": "assets/images/winter-courses.svg",
+      "title": "Take online courses during Winter Break",
+      "date": "December 18th - January 18th",
+      "description": "Our Allen Term (Winter Term) offers more than 20 undergraduate and graduate courses to help you get ahead - all online! Courses are open to both current AU students and non-AU students.",
+      "tag": "Allen Term"
+    },
+    {
+      "id": "spotlight-2",
+      "image": "assets/images/homecoming.svg",
+      "title": "Homecoming",
+      "date": "October 17-19",
+      "description": "Join us for Homecoming! All alumni, current students, faculty, staff & their families are welcome. Take a look at all the exciting activities taking place over the weekend. Go Saxons!",
+      "tag": "Campus Tradition"
+    },
+    {
+      "id": "spotlight-3",
+      "image": "assets/images/art-galleries.svg",
+      "title": "New Art Galleries",
+      "date": "Fall Semester",
+      "description": "See our new online galleries of student and faculty work at Harder Hall, showcasing groundbreaking ceramic sculptures, glassworks, digital design, and multi-media installations.",
+      "tag": "School of Art & Design"
+    }
+  ],
+  "didYouKnow": {
+    "title": "DID YOU KNOW?",
+    "highlight": "AU's School of Business is again rated one of the top in the nation by the Princeton Review.",
+    "facts": [
+      "Founded in 1836, Alfred University was one of the earliest coeducational institutions in the United States.",
+      "Student-to-faculty ratio of 13:1 ensures deeply personalized mentorship and hands-on collaborative research.",
+      "Over 98% of Alfred University graduates are employed or enrolled in top graduate schools within six months.",
+      "Home to the world-renowned Inamori School of Engineering and NYS College of Ceramics."
+    ]
+  },
+  "stayConnected": {
+    "title": "STAY CONNECTED",
+    "description": "Stay informed with the latest campus breakthroughs, Saxon athletic victories, alumni milestones, and regional cultural events.",
+    "primaryLink": "Alfred Online",
+    "secondaryLink": "E-News",
+    "newsletterNote": "Subscribe to our weekly e-newsletter for faculty publications, lecture series, and scholarship alerts."
+  },
+  "auStars": {
+    "title": "AU STARS",
+    "avatar": "assets/images/dr-peggy-wozniak.svg",
+    "name": "Dr. Peggy Wozniak",
+    "achievement": "AU Alumna Dr. Peggy Wozniak entered the Commission on Independent Colleges and Universities' Hall of Fame for K-12 educators who have made a difference in New York.",
+    "readMoreUrl": "#individuals"
+  },
   "departments": [
     {
-      "name": "Artificial Intelligence and Data Science",
-      "description": "Learn AI, Machine Learning and Data Science."
+      "id": "art-design",
+      "name": "School of Art and Design",
+      "icon": "🎨",
+      "description": "Consistently ranked as one of the premier art schools in the world, renowned for ceramic art, glass sculpture, expanded media, and graphic design.",
+      "degrees": ["B.F.A. Fine Arts", "B.S. Art History", "M.F.A. Ceramic Art", "M.F.A. Glass"],
+      "majors": ["Ceramic Art", "Sculpture & Dimensional Studies", "Glass Design", "Graphic Design", "Painting & Drawing"]
     },
     {
-      "name": "Computer Engineering",
-      "description": "Study programming, software and computer systems."
+      "id": "business",
+      "name": "College of Business",
+      "icon": "📈",
+      "description": "AACSB-accredited business education fostering entrepreneurship, financial acumen, data analytics, and ethical global management.",
+      "degrees": ["B.S. Business Administration", "B.S. Finance", "B.S. Marketing", "M.B.A."],
+      "majors": ["Business Administration", "Accounting", "Finance", "Healthcare Planning", "Marketing Analytics"]
     },
     {
-      "name": "Mechanical Engineering",
-      "description": "Learn machines, manufacturing and design."
+      "id": "engineering",
+      "name": "Inamori School of Engineering",
+      "icon": "⚙️",
+      "description": "Global leaders in materials science, biomaterials, glass engineering, mechanical systems, and renewable energy technologies.",
+      "degrees": ["B.S. Ceramic Engineering", "B.S. Materials Science", "B.S. Mechanical Engineering", "Ph.D."],
+      "majors": ["Mechanical Engineering", "Biomaterials Engineering", "Materials Science", "Renewable Energy"]
     },
     {
-      "name": "Information Technology",
-      "description": "Learn networking, databases and web technologies."
+      "id": "liberal-arts",
+      "name": "College of Liberal Arts & Sciences",
+      "icon": "📚",
+      "description": "Cultivating critical inquiry, creative expression, scientific discovery, and social justice across humanities and sciences.",
+      "degrees": ["B.A. Computer Science", "B.S. Biology", "B.A. Psychology", "B.A. English"],
+      "majors": ["Computer Science", "Biology & Pre-Med", "Psychology", "Communication Studies", "Political Science"]
+    },
+    {
+      "id": "performing-arts",
+      "name": "Performing Arts Division",
+      "icon": "🎭",
+      "description": "A dynamic home for vocal music, symphonic orchestra, theatrical production, choreography, and sound design.",
+      "degrees": ["B.A. Music", "B.A. Theatre", "B.A. Performance Studies"],
+      "majors": ["Symphonic Music", "Theatre Performance", "Stage Production & Lighting", "Vocal Studies"]
     }
   ],
-
   "courses": [
     {
-      "name": "B.Tech AI and Data Science",
-      "duration": "4 Years"
+      "code": "ART-201",
+      "name": "Foundations of Ceramic Sculpture",
+      "department": "School of Art and Design",
+      "duration": "1 Semester",
+      "credits": "4.0",
+      "level": "Undergraduate",
+      "description": "Exploration of hand-building, wheel-throwing, glaze chemistry, and high-temperature kiln firing."
     },
     {
-      "name": "B.Tech Computer Engineering",
-      "duration": "4 Years"
+      "code": "BUS-310",
+      "name": "Strategic Financial Analysis",
+      "department": "College of Business",
+      "duration": "1 Semester",
+      "credits": "3.0",
+      "level": "Undergraduate",
+      "description": "Corporate valuation, capital budgeting, risk management, and algorithmic financial modeling."
     },
     {
-      "name": "B.Tech Mechanical Engineering",
-      "duration": "4 Years"
+      "code": "ENG-220",
+      "name": "Thermodynamics & Energy Transfer",
+      "department": "Inamori School of Engineering",
+      "duration": "1 Semester",
+      "credits": "4.0",
+      "level": "Undergraduate",
+      "description": "First and second laws of thermodynamics, closed and open control volumes, and thermal efficiency."
+    },
+    {
+      "code": "CS-302",
+      "name": "Full-Stack Web Architectures & SPAs",
+      "department": "College of Liberal Arts & Sciences",
+      "duration": "1 Semester",
+      "credits": "4.0",
+      "level": "Undergraduate",
+      "description": "Modern client-side routing, single-page application lifecycle, asynchronous JSON APIs, and responsive design."
+    },
+    {
+      "code": "ART-415",
+      "name": "Advanced Glass Casting & Annealing",
+      "department": "School of Art and Design",
+      "duration": "1 Semester",
+      "credits": "4.0",
+      "level": "Advanced Undergrad / Grad",
+      "description": "Studio mastery of hot glass blowing, casting molds, and optical clarity techniques at the AU Glass Center."
+    },
+    {
+      "code": "MGT-501",
+      "name": "Executive Leadership & Data Strategy",
+      "department": "College of Business",
+      "duration": "1 Semester",
+      "credits": "3.0",
+      "level": "Graduate (MBA)",
+      "description": "Strategic planning, data-driven decision frameworks, organizational behavior, and corporate governance."
     }
   ],
-
   "faculty": [
     {
-      "name": "Dr. Priya Sharma",
-      "department": "AI and Data Science",
-      "designation": "Professor"
+      "name": "Dr. Sarah Miller",
+      "title": "Professor of Ceramic Art & Design",
+      "department": "School of Art and Design",
+      "email": "smiller@alfred.edu",
+      "bio": "Internationally exhibited ceramic sculptor with works in the Smithsonian American Art Museum."
     },
     {
-      "name": "Prof. Rahul Patil",
-      "department": "Computer Engineering",
-      "designation": "Assistant Professor"
+      "name": "Dr. David Vance",
+      "title": "Dean & Professor of Finance",
+      "department": "College of Business",
+      "email": "vance@alfred.edu",
+      "bio": "Former financial risk analyst and author of two leading textbooks on venture capital valuation."
     },
     {
-      "name": "Prof. Neha Joshi",
-      "department": "Mechanical Engineering",
-      "designation": "Assistant Professor"
+      "name": "Dr. Alan Huang",
+      "title": "Associate Professor of Biomaterials",
+      "department": "Inamori School of Engineering",
+      "email": "huang@alfred.edu",
+      "bio": "Lead researcher on bioactive glass implants for regenerative medicine, backed by NSF grants."
+    },
+    {
+      "name": "Prof. Elena Rostova",
+      "title": "Director of Symphonic Orchestra",
+      "department": "Performing Arts Division",
+      "email": "rostova@alfred.edu",
+      "bio": "Conductor and chamber violinist acclaimed for bringing classical and contemporary symphonic works to life."
     }
   ],
-
-  "notices": [
-    {
-      "title": "Semester Examination",
-      "description": "Check the examination timetable."
-    },
-    {
-      "title": "Admission Notice",
-      "description": "Admissions are open for eligible students."
-    },
-    {
-      "title": "College Event",
-      "description": "Upcoming technical activities and events."
-    }
-  ]
+  "athletics": {
+    "nickname": "Saxons",
+    "mascot": "King Saxon",
+    "division": "NCAA Division III",
+    "conference": "Empire 8 Athletic Conference",
+    "sports": [
+      "Football", "Men's & Women's Basketball", "Lacrosse", "Track & Field", 
+      "Cross Country", "Swimming & Diving", "Soccer", "Equestrian", "Tennis"
+    ]
+  }
 }
